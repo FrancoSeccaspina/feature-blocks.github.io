@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-weight: 600;
+    background-image: url("../images/bg-hero-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body{
+    font-weight: 400;
+    Font-size: 18px
+}
+
+.encabezado{
+    padding: 2rem;
+}
+
+.encabezado img{
+    width: 30%;
+}
+
+#free{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.blanco{
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+    border-radius: 16%;
+    box-shadow: 2px 2px 2px black;
+}
+
+#negro{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#normal{
+    color: rgb(19, 19, 19);
+    padding: 1rem;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+}
+
+#pink{
+    background: hsl(322, 100%, 66%);
+    padding: 0.5rem;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    box-shadow: 2px 2px 2px hsl(322, 100%, 66%);
+}
+
+.mobileFoto{
+    width: 100%;
+    padding: 1rem;
+}
+
+.fondo{
+    border: 4px solid hsl(193, 100%, 96%);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1%;
+}
+
+.Ilustation , .conversation , .user{
+    width: 100%;
+}
+
+#gris{
+    color: hsl(208, 11%, 55%);
+    text-align: center;
+    font-weight: 400;
+}
+
+.fondoDos{
+    border: 4px solid hsl(193, 100%, 96%);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1%;
+}
+
+
+.contenedorTres{
+    background: hsl(192, 100%, 9%);
+}
+
+.hod{
+    margin: auto;
+    background-color: white;
+    display: flex;
+    width: 32%;
+}
+
+.primero{
+    display: flex;
+    color: white;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.primero img{
+    width: 6%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.location{
+    margin: auto;
+}
+
+.segundo{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.iconos{
+    background: hsl(192, 100%, 9%);
+    color: white;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.iconos i {
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.Blanco{
+    background: hsl(192, 100%, 9%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribution{
+    display: none;
+}
+
+@media screen and (min-width:1440px) {
+
+    .encabezado img{
+        width: 10%;
+    }
+    
+    .contenedorHeader{
+        display: flex;
+        width: 100%;
+    }
+
+    #muevePrimero{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    #mueveSegundo{
+        width: 50%;
+    }
+
+    .imagenTexto , .imagenTexto3{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .Ilustation, .conversation, .user{
+        width:52%
+    }
+
+    #MuevePrimero , #MueveSegundo , #MueveTercero{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #gris{
+      text-align: start;
+    }
+
+    .imagenTexto2{
+        display: flex;
+    }
+
+    .fondoDos{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .contenedorTres{
+        display: flex;
+        width: 100%;
+    }
+
+    .hod{
+        margin-right: 64%;
+    }
+
+    .MueveTodoJunto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: auto;
+        padding: 2rem;
+        width: 42%;
+    }
+
+    .primero{
+        display: flex;
+        width: 70%;
+    }
+
+    .primero img{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 4%;
+        height: 18px;
+    }
+
+    .MueveTodo2{
+        gap: 2rem;
+        display: flex;
+        margin: auto;
+        margin-left: -13%;
+    }
+
+    .iconos{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+    }
+}
